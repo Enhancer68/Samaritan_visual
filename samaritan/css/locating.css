@@ -1,0 +1,194 @@
+#logo3 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(img/logo_black.jpg) no-repeat;
+}
+
+#particles-js {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: magdacleanmono;
+    background-image: radial-gradient( white, #c1c1c1);
+    font-family: magdacleanmono;
+}
+
+.testing2 {
+    color: red;
+    font-size: 21px;
+    font-family: "magdacleanmono";
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.testing3 {
+    color: #c7c7c7;
+    font-size: 60px;
+    font-family: "magdacleanmono";
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-left: 49px;
+}
+
+.panel {
+    position: absolute;
+    z-index: 10;
+    width: 33%;
+    background: rgba(255, 255, 255, 0.88);
+    padding: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 100;
+    color: #e0e0e0;
+    display: inline-block;
+    margin-top: 35vh;
+    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    /* tiré de la moitié de sa propre hauteur */
+}
+
+.fullW {
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+}
+
+.thirty {
+    width: 33%;
+    display: inline-block;
+}
+
+.hundred {
+    width: 100%;
+    height: 0;
+}
+
+.separator {
+    background: white;
+    height: 2px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.adresseIp {
+    visibility: hidden;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+.ip {
+    visibility: hidden;
+}
+
+#particles-js {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+.particlesAppear {
+    opacity: 0;
+}
+
+.Ddrones {
+    visibility: hidden;
+}
+
+.twentytwo {
+    font-size: 22px !important;
+}
+
+.videoCam {
+    text-align: center;
+}
+
+.videoCam videoPlay {
+    width: inherit;
+}
+
+
+/* Interface chargement vidéo */
+
+#uiBox {
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 370px;
+    height: 120px;
+    background: black;
+}
+
+#uiTitle {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 0;
+}
+
+#uiSubtitle {
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 14px;
+    background: white;
+    width: 100%;
+    /*height: 17px;*/
+    margin-bottom: 10px;
+}
+
+#uiSubtitle p {
+    margin-left: 8px;
+    text-align: center;
+}
+
+#uiLoading {
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+#uiCounter {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#uiBar {
+    background: red;
+    width: 0%;
+    height: 4px;
+    margin-top: 20px;
+}
+
+#containerVideo {
+    position: relative;
+    margin-top: 2%;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+
+/* FIN interface video */
